@@ -20,6 +20,9 @@ const config: Config = {
         success: "#0070f3",
         cyan: "#79FFE1",
       },
+      maxWidth: {
+        1200: "1200px",
+      },
       spacing: {
         28: "7rem",
       },
