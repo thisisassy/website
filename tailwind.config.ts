@@ -22,18 +22,31 @@ const config: Config = {
       },
       maxWidth: {
         1200: "1200px",
+        892: "892px",
+        790: "790px",
+        584: "584px",
+        276: "276px",
+      },
+      width: {
+        892: "892px",
       },
       spacing: {
-        28: "7rem",
+        120: "120px",
+        28: "28px",
+        24: "24px",
       },
       letterSpacing: {
         tighter: "-.04em",
       },
       fontSize: {
-        "5xl": "2.5rem",
-        "6xl": "2.75rem",
-        "7xl": "4.5rem",
-        "8xl": "6.25rem",
+        "xs": "14px",
+        "sm": "16px",
+        "base": "19px",
+        "heading-1": "40px",
+        "heading-2": "32px",
+        "heading-3": "28px",
+        "heading-4": "24px",
+        "heading-5": "21px",
       },
       boxShadow: {
         sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
