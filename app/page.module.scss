@@ -22,3 +22,27 @@
   padding: 10px 0 0;
   text-decoration: underline;
 }
+
+// error page
+.error__content {
+  text-align: center;
+  h2 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 180%;
+    padding: 12px 0 0;
+  }
+  a {
+    display: inline-block;
+    margin: 40px 0 0;
+    padding: 8px 16px;
+    border: 1px solid var(--main-black);
+    border-radius: 50px;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
