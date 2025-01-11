@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 56px;
+  @media screen and (max-width: 520px) {
+    margin-bottom: 48px;
+  }
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 450px) {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 56px;
+  }
+}
+.navi {
+  display: flex;
+  column-gap: 24px;
+
+  a {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 16px 0;
+  }
+}

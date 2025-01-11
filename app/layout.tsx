@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import Header from "../components/Header/header";
+import Footer from "../components/Footer/footer";
+import "../app/global.scss";
 
 export const metadata: Metadata = {
   title: "Haruka Ashiuchi | Writer, Translator",
@@ -14,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body>
-        <header>Header</header>
+        <Header />
         <main>{children}</main>
-        <footer>Footer</footer>
+        <Footer />
       </body>
     </html>
   );

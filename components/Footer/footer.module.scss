@@ -1,0 +1,38 @@
+.footer {
+  padding: 40px 0;
+  background-color: #efefef;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  @media screen and (max-width: (520px - 1px)) {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+.navi {
+  display: flex;
+  column-gap: 24px;
+
+  a {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 16px 0;
+  }
+}
+.social__links {
+  text-align: right;
+  @media screen and (max-width: (520px - 1px)) {
+    text-align: left;
+  }
+  a {
+    padding: 0 0 0 6px;
+    border-bottom: 1px solid var(--alpha-black);
+    padding-bottom: 2px;
+  }
+}
