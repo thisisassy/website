@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Section from "@/components/Section/section";
 import styles from "./page.module.scss";
 
 export default function Home() {
@@ -16,13 +17,22 @@ export default function Home() {
           Check out my profile
         </Link>
       </div>
-      <section>
-        <h2>Works</h2>
-      </section>
-      <section>
-        <h2>Blog</h2>
-      </section>
-      <div>Get in touch</div>
+      <Section heading="Works">
+        <p>coming soon</p>
+      </Section>
+      <Section heading="Blog">
+        <ul>
+          <article>
+            <h3>ブログタイトルが入ります。</h3>
+            <p>
+              <time dateTime=""></time>
+            </p>
+            <p>
+              記事の抜粋文が2行〜3行程度入ります。記事の抜粋文が2行〜3行程度入ります。
+            </p>
+          </article>
+        </ul>
+      </Section>
     </>
   );
 }
