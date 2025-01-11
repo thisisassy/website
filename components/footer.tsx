@@ -11,23 +11,35 @@ export default function Footer() {
                 <Link href="/works">Works</Link>
               </li>
               <li>
-                <Link href="/">Blog</Link>
+                <Link href="/blog">Blog</Link>
               </li>
               <li>
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="/">Contact</Link>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
+          Find me on
           <ul>
-            {/* TODO: Social links */}
             <li>
-              <a href="/">Instagram</a>
+              <a
+                href="https://www.instagram.com/haruka.asuc/"
+                target="_blank"
+                rel="newopener"
+              >
+                Instagram
+              </a>
             </li>
             <li>
-              <a href="/">Linkedin</a>
+              <a
+                href="https://www.linkedin.com/in/harukaashiuchi"
+                target="_blank"
+                rel="newopener"
+              >
+                Linkedin
+              </a>
             </li>
           </ul>
         </div>
