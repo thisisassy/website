@@ -1,0 +1,48 @@
+.intro {
+  p {
+    font-size: 56px;
+    color: var(--alpha-black);
+    @media screen and (max-width: 960px) {
+      font-size: 40px;
+    }
+    @media screen and (max-width: 520px) {
+      font-size: 24px;
+    }
+  }
+  span {
+    color: var(--main-black);
+    &.name {
+      font-weight: 600;
+    }
+  }
+}
+.link__profile {
+  display: block;
+  line-height: 180%;
+  padding: 10px 0 0;
+  text-decoration: underline;
+}
+
+// error page
+.error__content {
+  text-align: center;
+  h2 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 180%;
+    padding: 12px 0 0;
+  }
+  a {
+    display: inline-block;
+    margin: 40px 0 0;
+    padding: 8px 16px;
+    border: 1px solid var(--main-black);
+    border-radius: 50px;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
